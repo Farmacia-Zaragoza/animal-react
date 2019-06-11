@@ -1,0 +1,21 @@
+@import './base/settings';
+@import './base/base';
+
+
+//main css
+@import './components/main';
+
+//left css
+@import './components/left_side';
+
+//middle css
+@import './components/middle_side';
+
+//right css
+@import './components/right_side';
+
+//flag
+@import './components/flag';
+
+//link
+@import './components/link';

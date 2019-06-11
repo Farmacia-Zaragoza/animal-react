@@ -1,0 +1,33 @@
+JSON:Animals
+  SITE: 
+    GENERAL:
+    THEME:  
+      Theme:
+      Logo:
+      Font:
+      Navigation:      
+    IMAGES:
+    COMMANDS:
+    META:
+
+  REGIONS: (objects type region)
+    BOTTOM:  
+      STYLE:    image
+      CONTENT:  simple_menu
+
+  LANGUAGES:    
+
+  SOCIAL:
+
+  ANIMALS:    
+
+  CLOUDFLAGS:    
+
+  BUTTONS:
+    
+  IMAGES:
+    
+  SYMBOLS:
+
+  COOKIES:
+        

@@ -1,0 +1,242 @@
+.left_side {
+    width: 30%;
+}
+.left_animals_wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.left_animals_wrapper .left_lion_kid {
+    position: absolute;
+    top: 18em;
+    left: 69%;
+    z-index: 25;
+    right: 17%;
+}
+.left_animals_wrapper .left_lion_kid:hover {
+    z-index: 99;
+}
+.left_animals_wrapper .left_toucan_big {
+    position: absolute;
+    top: 12em;
+    left: 32%;
+    z-index: 25;
+    right: 41%;
+}
+.left_animals_wrapper .left_toucan_big:hover {
+    z-index: 99;
+}
+.left_animals_wrapper .left_rhino {
+    position: absolute;
+    top: 35em;
+    left: 14%;
+    z-index: 25;
+    right: 67%;
+}
+.left_animals_wrapper .left_rhino:hover {
+    z-index: 88;
+}
+.left_animals_wrapper .left_toucan_small {
+    position: absolute;
+    top: 32em;
+    left: 14%;
+    z-index: 25;
+    right: 70%;
+}
+.left_animals_wrapper .left_toucan_small:hover {
+    z-index: 99;
+}
+.left_animals_wrapper .left_zebra_big {
+    position: absolute;
+    top: 25em;
+    left: 32%;
+    z-index: 25;
+    right: 41%;
+}
+.left_animals_wrapper .left_zebra_big:hover {
+    z-index: 99;
+}
+.left_animals_wrapper .left_panda_head {
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    z-index: 28;
+    right: 73%;
+}
+.left_animals_wrapper .left_giraffe_big {
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    z-index: 25;
+    right: 20%;
+}
+.left_animals_wrapper .left_snake_small {
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+    z-index: 25;
+    right: 52%;
+}
+.left_animals_wrapper .left_deer {
+    position: absolute;
+    bottom: 0;
+    left: 76%;
+    z-index: 25;
+    right: -2%;
+}
+.left_animals_wrapper .left_deer:hover {
+    z-index: 99;
+}
+.left_animals_rel {
+    position: relative;
+    z-index: 50;
+}
+.infoBoxLeft {
+    background: #ccc;
+    padding: 25px;
+    width: 153px;
+    position: absolute;
+    top: -69px;
+    left: 100%;
+    z-index: 999;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px double #eee;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(10%);
+    transition: .6s;
+}
+.left_animals_rel:hover .infoBoxLeft {
+    visibility: visible;
+    opacity: 1;   
+    transform: translateX(0%);
+}
+@media (min-width: 991px) and (max-width: 1320px) {
+    .left_animals_wrapper .left_lion_kid {
+        position: absolute;
+        top: 24em;
+        left: 70%;
+        z-index: 25;
+        right: 17%;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+    .left_animals_wrapper .left_lion_kid {
+        top: 29em;
+        left: 85%;
+        right: 4%;
+    }
+    .left_animals_wrapper .left_toucan_big {
+        top: 19em;
+    }
+    .left_animals_wrapper .left_zebra_big {
+        top: 37em;
+        left: 46%;
+        right: 34%;
+    }
+    .left_animals_wrapper .left_rhino {
+        top: 49em;
+        left: 14%;
+        right: 67%;
+    }
+    .left_animals_wrapper .left_toucan_small {
+        top: 45em;
+        left: 14%;
+        z-index: 25;
+        right: 70%;
+    }
+}
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .left_animals_wrapper .left_lion_kid {
+        top: 36em;
+        left: 84%;
+        right: 4%;
+    }
+    .left_animals_wrapper .left_toucan_big {
+        top: 32em;
+    }
+    .left_animals_wrapper .left_zebra_big {
+        top: 47em;
+        left: 54%;
+        right: 22%;
+    }
+    .left_animals_wrapper .left_rhino {
+        top: 63em;
+        left: 14%;
+        right: 67%;
+    }
+    .left_animals_wrapper .left_toucan_small {
+        top: 59em;
+        left: 14%;
+        z-index: 25;
+        right: 70%;
+    }
+    .lion_light_down {
+        position: absolute;
+        right: 31%;
+        width: 200px;
+        bottom: 0;
+    }
+    .monkey_light_down {
+        position: absolute;
+        right: 35%;
+        width: 122px;
+        bottom: 114px;
+    }
+}
+
+
+
+// @media (min-width: 1601px) and (max-width: 1920px) {
+//     .left_animals_wrapper .left_lion_kid {
+//         top: 28em;
+//         left: 90%;
+//         right: -3%;
+//     }
+//     .left_animals_wrapper .left_toucan_big {
+//         top: 20em;
+//     }
+//     .left_animals_wrapper .left_zebra_big {
+//         top: 50em;
+//         left: 47%;
+//         right: 22%;
+//     }
+//     .left_animals_wrapper .left_rhino {
+//         top: 63em;
+//         left: 14%;
+//         right: 67%;
+//     }
+//     .left_animals_wrapper .left_toucan_small {
+//         top: 59em;
+//         left: 14%;
+//         z-index: 25;
+//         right: 70%;
+//     }
+// }
+// @media (min-width: 1921px) and (max-width: 2560px) {
+//     .left_animals_wrapper .left_lion_kid {
+//         top: 36em;
+//         left: 82%;
+//         right: 5%;
+//     }
+//     .left_animals_wrapper .left_toucan_big {
+//         top: 28em;
+//     }
+//     .left_animals_wrapper .left_zebra_big {
+//         top: 47em;
+//         left: 54%;
+//         right: 22%;
+//     }
+//     .left_animals_wrapper .left_rhino {
+//         top: 65em;
+//         left: 14%;
+//         right: 67%;
+//     }
+//     .left_animals_wrapper .left_toucan_small {
+//         top: 60em;
+//         left: 14%;
+//         z-index: 25;
+//         right: 70%;
+//     }
+// }

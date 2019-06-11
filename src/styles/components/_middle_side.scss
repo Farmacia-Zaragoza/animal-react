@@ -1,0 +1,509 @@
+.middle_side {
+    width: 40%;
+}
+.site_title h4 {
+    font-size: 32px;
+    text-align: center;
+    color: #f1843b;
+    cursor: pointer;
+    font-family: monospace;
+}
+.slider_section {
+    margin-top: 29em;
+}
+.slide_square {
+    width: 343px;
+    margin: 0 auto;
+    height: 240px;
+    position: relative;
+}
+.left_square_tree {
+    width: 20%;
+    position: absolute;
+    bottom: 16px;
+    left: -55px;
+    z-index: 55;
+}
+.right_square_tree img {
+    display: block;
+    width: 100%;
+}
+.right_square_tree {
+    width: 20%;
+    position: absolute;
+    bottom: 16px;
+    right: -52px;
+    z-index: 55;
+}
+.lion_light_top {
+    width: 20%;
+    position: absolute;
+    top: -25px;
+    right: 20px;
+}
+.elephant_light_top {
+    width: 20%;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+}
+.lion_light_top:hover {
+    z-index: 99;
+}
+.elephant_light_left_side {
+    width: 30%;
+    position: absolute;
+    bottom: 11px;
+    left: -89px;
+}
+.elephant_light_left_side:hover {
+    z-index: 99;
+}
+.tiger_left_side {
+    width: 23%;
+    position: absolute;
+    bottom: 98px;
+    left: -64px;
+}
+.tiger_left_side:hover {
+    z-index: 99;
+}
+.monkey_left_side {
+    width: 23%;
+    position: absolute;
+    bottom: 57px;
+    left: -108px;
+}
+.monkey_left_side:hover {
+    z-index: 99;
+}
+.ostrich_left_side {
+    width: 35%;
+    position: absolute;
+    bottom: 100px;
+    left: -108px;
+}
+.ostrich_left_side:hover {
+    z-index: 99;
+}
+.snake_left_side {
+    width: 31%;
+    position: absolute;
+    bottom: 100px;
+    left: -156px;
+}
+.snake_left_side:hover {
+    z-index: 99;
+}
+@media (min-width: 991px) and (max-width: 1400px) {
+    .slider_section {
+        margin-top: 10em;
+    }
+}
+
+
+
+.lion_light_right_side {
+    width: 30%;
+    position: absolute;
+    bottom: 11px;
+    right: -89px;
+}
+.lion_light_right_side:hover {
+    z-index: 99;
+}
+.gorilla_right_side {
+    width: 30%;
+    position: absolute;
+    bottom: 45px;
+    right: -89px;
+}
+.gorilla_right_side:hover {
+    z-index: 99;
+}
+.buffalo_light_right_side {
+    width: 30%;
+    position: absolute;
+    bottom: 45px;
+    right: -188px;
+    z-index: 10;
+}
+.buffalo_light_right_side:hover {
+    z-index: 99;
+}
+.giraffe_right_side {
+    width: 30%;
+    position: absolute;
+    bottom: 122px;
+    right: -91px;
+}
+.giraffe_right_side:hover {
+    z-index: 99;
+}
+.lion_light_down {
+    position: absolute;
+    right: 31%;
+    width: 106px;
+    bottom: 0;
+}
+.monkey_light_down {
+    position: absolute;
+    right: 35%;
+    width: 50px;
+    bottom: 58px;
+}
+.aligator_light_down {
+    position: absolute;
+    left: 35%;
+    width: 50px;
+    bottom: 58px;
+}
+.butterfly_light_down {
+    position: absolute;
+    left: 38%;
+    width: 24px;
+    bottom: 134px;
+}
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .lion_light_down {
+        position: absolute;
+        right: 31%;
+        width: 200px;
+        bottom: 0;
+    }
+    .monkey_light_down {
+        position: absolute;
+        right: 35%;
+        width: 122px;
+        bottom: 114px;
+    }
+    .aligator_light_down {
+        position: absolute;
+        left: 35%;
+        width: 160px;
+        bottom: 58px;
+    }
+    .butterfly_light_down {
+        position: absolute;
+        left: 38%;
+        width: 57px;
+        bottom: 270px;
+    }
+}
+// //slick slider
+// .wrapper {
+//     max-width: 500px;
+//     margin: 0 auto;
+// }
+
+// .portfolio-item-slider {
+//     height:320px !important
+// }
+// .portfolio-thumb-slider {
+//     height:100px !important
+// }
+// .portfolio-thumb-slider img {
+//     width:118; height:100px
+// }
+// .portfolio-item-slider img {
+//     width:530; 
+//     height:320px
+// }
+// .portfolio-thumb-slider .slick-slider-item {
+//     padding: 5px;
+// }
+
+// .portfolio-thumb-slider {
+//     margin: 0 -5px 5px -5px;
+// }
+
+// .portfolio-thumb-slider .slick-active img {
+//     outline: 2px solid transparent;
+// }
+
+// .portfolio-thumb-slider .slick-current img {
+//     outline-color: green;
+// }
+
+// .slick-slider {
+//     margin-bottom: 0px;
+// }
+
+// .controls {
+//     text-align: center;
+//     padding: 10px;
+//     font-family: monospace;
+//     font-weight: bold;
+// }
+
+
+
+// flexslider
+.slider_wrapper {
+    padding: 21px 25px 0px 26px;
+}
+div#slider img {
+    width: 288px;
+    height: 176px;
+}
+#slider ul.flex-direction-nav {
+    display: none;
+}
+#slider li.flex-active-slide {
+    margin-left: -39px;
+}
+.thumbCarousel_wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+div#carousel img {
+    width: 100px;
+    height: 81px;
+}
+#carousel ul.flex-direction-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -57px;
+}
+#carousel li.flex-nav-prev {
+    display: block;
+    text-align: left;
+    float: left;
+    margin-left: -41px;
+}
+#carousel li.flex-nav-next {
+    text-align: right;
+    margin-right: -41px;
+}
+#carousel li.flex-nav-prev a.flex-prev svg {
+    background: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: #f1843b;
+}
+#carousel li.flex-nav-next a.flex-next svg {
+    background: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: #f1843b;
+}
+
+.mid_left_slide_animals_rel,.mid_right_slide_animals_rel {
+    position: relative;
+    z-index: 50;
+}
+.infoBoxmidLeftSlide {
+    background: #ccc;
+    padding: 25px;
+    width: 153px;
+    position: absolute;
+    bottom: 344%;
+    right: 100%;
+    z-index: 999;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px double #eee;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: .6s;
+}
+.mid_left_slide_animals_rel:hover .infoBoxmidLeftSlide {
+    visibility: visible;
+    opacity: 1;   
+    transform: translateX(0%);
+}
+.infoBoxmidRightSlide {
+    background: #ccc;
+    padding: 25px;
+    width: 153px;
+    position: absolute;
+    bottom: 344%;
+    left: 100%;
+    z-index: 999;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px double #eee;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(10%);
+    transition: .6s;
+}
+.mid_right_slide_animals_rel:hover .infoBoxmidRightSlide {
+    visibility: visible;
+    opacity: 1;   
+    transform: translateX(0%);
+}
+
+
+@media (min-width: 991px) and (max-width: 1320px) {
+    .slider_wrapper {
+        padding: 8px 25px 0px 25px;
+    }
+    .slide_square {
+        width: 260px;
+        margin: 0 auto;
+        height: 175px;
+        position: relative;
+    }   
+    div#slider img {
+        width: 211px;
+        height: 132px;
+    }
+    .left_square_tree {
+        width: 15%;
+        bottom: 8px;
+        left: -27px;
+    }
+    .elephant_light_left_side {
+        width: 23%;
+        position: absolute;
+        bottom: 7px;
+        left: -48px;
+    }
+    .monkey_left_side {
+        width: 12%;
+        position: absolute;
+        bottom: 46px;
+        left: -49px;
+    }
+    .tiger_left_side {
+        width: 19%;
+        position: absolute;
+        bottom: 53px;
+        left: -36px;
+    }
+    .ostrich_left_side {
+        width: 25%;
+        position: absolute;
+        bottom: 100px;
+        left: -52px;
+    }
+    .snake_left_side {
+        width: 22%;
+        position: absolute;
+        bottom: 81px;
+        left: -67px;
+    }
+    .right_square_tree {
+        width: 17%;
+        position: absolute;
+        bottom: -8px;
+        right: -32px;
+        z-index: 55;
+    }
+    .lion_light_right_side {
+        width: 25%;
+        position: absolute;
+        bottom: 11px;
+        right: -53px;
+    }
+    .gorilla_right_side {
+        width: 22%;
+        position: absolute;
+        bottom: 45px;
+        right: -63px;
+    }
+    .buffalo_light_right_side {
+        width: 26%;
+        position: absolute;
+        bottom: 45px;
+        right: -105px;
+        z-index: 10;
+    }
+    .giraffe_right_side {
+        width: 25%;
+        position: absolute;
+        bottom: 75px;
+        right: -54px;
+    }
+    
+}
+@media (min-width: 570px) and (max-width: 991px) {
+    .slider_section {
+        margin-top: 16em;
+    }
+    .slider_wrapper {
+        padding: 8px 25px 0px 25px;
+    }
+    .slide_square {
+        width: 260px;
+        margin: 0 auto;
+        height: 175px;
+        position: relative;
+    }   
+    div#slider img {
+        width: 211px;
+        height: 132px;
+    }
+    .left_square_tree {
+        width: 15%;
+        bottom: 8px;
+        left: -27px;
+    }
+    .elephant_light_left_side {
+        width: 23%;
+        position: absolute;
+        bottom: 7px;
+        left: -48px;
+    }
+    .monkey_left_side {
+        width: 12%;
+        position: absolute;
+        bottom: 46px;
+        left: -49px;
+    }
+    .tiger_left_side {
+        width: 19%;
+        position: absolute;
+        bottom: 53px;
+        left: -36px;
+    }
+    .ostrich_left_side {
+        width: 25%;
+        position: absolute;
+        bottom: 100px;
+        left: -52px;
+    }
+    .snake_left_side {
+        width: 22%;
+        position: absolute;
+        bottom: 81px;
+        left: -67px;
+    }
+    .right_square_tree {
+        width: 17%;
+        position: absolute;
+        bottom: -8px;
+        right: -32px;
+        z-index: 55;
+    }
+    .lion_light_right_side {
+        width: 25%;
+        position: absolute;
+        bottom: 11px;
+        right: -53px;
+    }
+    .gorilla_right_side {
+        width: 22%;
+        position: absolute;
+        bottom: 45px;
+        right: -63px;
+    }
+    .buffalo_light_right_side {
+        width: 26%;
+        position: absolute;
+        bottom: 45px;
+        right: -105px;
+        z-index: 10;
+    }
+    .giraffe_right_side {
+        width: 25%;
+        position: absolute;
+        bottom: 75px;
+        right: -54px;
+    }
+}

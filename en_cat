@@ -1,0 +1,72 @@
+#Lang:EN - Upd_19_04_º0__V_002
+#Site Json Structure - Animals
+#Categories List - Main Level
+# Level 000 
+#-------------------------------------------------
+# Managed Index : j - d - c
+#-------------------------------------------------
+#Animals - Categorias principales
+#-------------------------------------------------
+arr_jmain_0@site
+arr_jmain_1@animals
+arr_jmain_2@regions
+arr_jmain_3@scenaries
+arr_jmain_4@symbols
+arr_jmain_5@langs
+arr_jmain_6@cookies
+arr_jmain_7@cloudlangs
+arr_jmain_8@social
+arr_jmain_9@photos
+arr_jmain_10@links
+arr_jmain_11@pictures
+
+#-------------------------------------------------
+#Animals - Main Things
+#-------------------------------------------------
+
+#-------------------------------------------------
+# Url Categories path name
+#-------------------------------------------------
+categories@taxonomy
+#-------------------------------------------------
+arr_cmain_0@yes
+arr_cmain_1@yes
+arr_cmain_2@yes
+arr_cmain_3@yes
+arr_cmain_4@yes
+arr_cmain_5@yes
+arr_cmain_6@yes
+arr_cmain_7@yes
+arr_cmain_8@yes
+arr_cmain_9@yes
+arr_cmain_10@yes
+arr_cmain_11@yes
+
+
+#-------------------------------------------------
+arr_dmain_0@000
+arr_dmain_1@001
+arr_dmain_2@002
+arr_dmain_3@003
+arr_dmain_4@004
+arr_dmain_5@005
+arr_dmain_6@006
+arr_dmain_7@007
+arr_dmain_8@008
+arr_dmain_9@009
+arr_dmain_10@010
+arr_dmain_11@011
+
+
+arr_omain_0@object
+arr_omain_1@array
+arr_omain_2@object
+arr_omain_3@object
+arr_omain_4@object
+arr_omain_5@object
+arr_omain_6@object
+arr_omain_7@object
+arr_omain_8@object
+arr_omain_9@object
+arr_omain_10@object
+arr_omain_11@object
